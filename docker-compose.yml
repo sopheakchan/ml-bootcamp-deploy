@@ -1,7 +1,7 @@
 version: '3'
 services:
-  demo:
-    image: demo
-    container_name: demo_container
+  team04:
+    image: team04
+    container_name: team04_container
     ports:
-      - "4980:4980"
+      - "4984:4984"
