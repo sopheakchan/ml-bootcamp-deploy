@@ -1,0 +1,7 @@
+version: '3'
+services:
+  demo:
+    image: demo
+    container_name: demo_container
+    ports:
+      - "4980:4980"
